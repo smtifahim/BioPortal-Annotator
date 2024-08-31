@@ -38,7 +38,7 @@
         
         table
         {
-            width: 80%;
+            width: relative;
             border-collapse: collapse;
             margin-top: 20px;
         }
@@ -55,16 +55,17 @@
         }
         .copy-btn 
         {
-            position: absolute;
-            right: 5px;
-            top: 50%;
-            transform: translateY(-50%);
+            margin-left: 1px;
             background-color: #f0f0f0;
             border: none;
             cursor: pointer;
             font-size: 12px;
             padding: 4px 8px;
             display: inline-block;
+        }
+        .ontology-iri 
+        {
+            display: inline-block; /* Ensure the link stays inline with the button */
         }
         td 
         {

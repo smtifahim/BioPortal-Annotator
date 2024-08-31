@@ -115,8 +115,9 @@ function displayResults(annotations)
             <td>${term}</td>
             <td>${context}</td>
             <td>
-                <a href="${ontologyIRI}" target="_blank">${ontologyIRI}</a>
                 <button class="copy-btn" onclick="copyToClipboard('${ontologyIRI}')">Copy URL</button>
+                <a href="${ontologyIRI}" target="_blank" class="ontology-iri">${ontologyIRI}</a>
+
             </td>
             <td>${matchingType}</td>`;
         // Append the row to the table
