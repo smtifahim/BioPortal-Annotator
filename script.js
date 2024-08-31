@@ -61,6 +61,12 @@ function copyToClipboard(text)
     alert('Copied IRI: ' + text);
 }
 
+function resetTextArea()
+{
+    document.getElementById('inputText').value = '';
+    document.getElementById('resultsTable').style.display = 'none';
+}
+
 function displayResults(annotations) 
 {
     const resultsTable = document.getElementById('resultsTable');

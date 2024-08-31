@@ -92,7 +92,10 @@
     <p>It recognizes the matching anatomical terms from UBERON, FMA, and NPO.</p>
     <hr style="border: 1px solid #000;">
     <textarea id="inputText" placeholder="Enter text to annotate..."></textarea><br>
-    <button onclick="annotateText()"> Annotate Text </button>
+    <div style="display: inline-block;">
+        <button onclick="annotateText()"> Annotate Text </button>
+        <button onclick="resetTextArea()"> Reset Text </button>
+    </div>
     <table id="resultsTable" style="display: none;">
         <thead>
             <tr>
