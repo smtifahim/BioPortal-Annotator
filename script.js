@@ -1,4 +1,4 @@
-// This is a simple annotation extractor using BioPortal's Annotation API.
+// This is a simple annotation extractor using BioPortal's Annotation service API.
 // https://data.bioontology.org/documentation#nav_annotator - Fahim Imam
 async function annotateText() 
 {
