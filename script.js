@@ -13,7 +13,9 @@ async function annotateText()
     const url = 'https://data.bioontology.org/annotator?apikey=' + apiKey;
     const params = {
                         text: inputText,
-                        ontologies: 'UBERON, FMA, NPOKB', // you can specify specific ontologies here
+                        ontologies: 'UBERON, FMA, NPOKB, DOID, MONDO, HP',  // you can specify specific ontologies here
+                        // ontologies: 'MONDO', // you can specify specific ontologies here
+                        // ontologies: 'DOID, MONDO, HP',
                         longest_only: 'true',
                         exclude_numbers: 'true',
                         whole_word_only: 'true',
